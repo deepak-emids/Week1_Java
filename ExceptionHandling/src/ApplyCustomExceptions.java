@@ -11,7 +11,7 @@ public class ApplyCustomExceptions {
         try{
             voterCheck(15);
         }catch (CustomException ex){
-            System.out.println(ex);
+            System.out.println("exception message:"+ex.message+"exception type:"+ex.eType);
         }
 
     }

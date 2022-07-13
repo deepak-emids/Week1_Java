@@ -1,4 +1,4 @@
-public class Exceptions {
+public class ExceptionsFlow {
     public static void main(String[] args) {
         try {
             //Stmt 1;
