@@ -61,20 +61,5 @@ public class ArraylistCollection {
 
         //a.removeAll();
         //System.out.println(a);
-
-        //a.clone(b);
-        //System.out.println(a);
-
-//        toArray(Object[] O);
-//        trimToSize();
-//        ensureCapacity?(int minCapacity);
-//        indexOf(Object O);
-//        listIterator?();
-//        listIterator?(int index);
-//        removeIf?(Predicate filter);
-//        removeRange?(int fromIndex, int toIndex);
-//        retainAll?(Collection<?> c);
-//        spliterator?();
-
     }
 }

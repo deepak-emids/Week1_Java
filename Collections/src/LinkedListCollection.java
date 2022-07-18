@@ -10,6 +10,8 @@ class LinkedListCollection {
         l.addFirst(1002);
         l.removeLast();
 
+        System.out.println("get()  "+l.get(1));//1001
+
         System.out.println(l);//[1002, 1001]
 
     }
