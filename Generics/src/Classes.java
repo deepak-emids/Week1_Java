@@ -1,3 +1,5 @@
+
+//generic class
 class Test<T> {
     T obj;
 
