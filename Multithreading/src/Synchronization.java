@@ -28,7 +28,7 @@ class SynchronizedClass {
     }
 }
 
-    /*output id different each time*/
+/*output is different each time*/
     /*output before sync
     thread1
     thread2
@@ -38,7 +38,7 @@ class SynchronizedClass {
     thread1
     */
 
-    /*out put is same every time*/
+/*out put is same every time*/
     /*output after sync
     thread2
     thread2
