@@ -4,7 +4,7 @@ public class Synchronization {
 
         Thread t1 = new Thread() {
             public void run() {
-                while (true) {
+                for (int i = 0; i < 3; i++) {
                     s.synchronizedMethod("thread1");
                 }
             }
@@ -12,7 +12,7 @@ public class Synchronization {
 
         Thread t2 = new Thread() {
             public void run() {
-                while (true) {
+                for (int i = 0; i < 3; i++) {
                     s.synchronizedMethod("thread2");
                 }
             }
@@ -23,7 +23,27 @@ public class Synchronization {
 }
 
 class SynchronizedClass {
-    synchronized void synchronizedMethod(String string) {
+    void synchronizedMethod(String string) {
         System.out.println(string);
     }
 }
+
+    /*output id different each time*/
+    /*output before sync
+    thread1
+    thread2
+    thread2
+    thread2
+    thread1
+    thread1
+    */
+
+    /*out put is same every time*/
+    /*output after sync
+    thread2
+    thread2
+    thread2
+    thread1
+    thread1
+    thread1
+     */
