@@ -10,10 +10,10 @@ public class ReverseCollection {
         list.add(589);
         list.add(56);
 
-        System.out.println(list);
+        System.out.println(list);//[1, 2, 589, 56]
 
         Collections.reverse(list);
 
-        System.out.println(list);
+        System.out.println(list);//[56, 589, 2, 1]
     }
 }

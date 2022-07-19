@@ -13,6 +13,14 @@ public class RotateCollection {
             list.add(2);
 
             Collections.rotate(list,2);
-            System.out.println(list);
+            System.out.println(list);//[56, 2, 1, 2, 589]
+
+            List<String> list1 = new ArrayList<>();
+            list1.add("java");
+            list1.add("spring");
+            list1.add("boot");
+
+            Collections.rotate(list1,1);
+            System.out.println(list1);//[boot, java, spring]
         }
 }
