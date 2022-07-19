@@ -8,23 +8,16 @@ import java.util.concurrent.CompletableFuture;
  * We cannot perform further action on a Future's result without blocking.
  * Future has not any exception handling.
  * We cannot combine multiple futures.
- * <p>
- * Future has so many limitations, that's why we have CompletableFuture.
- * CompletableFuture provides a broad set of methods for creating multiple Futures, chaining, and combining.
- * It also has comprehensive exception handling support.
- * <p>
- * Future has so many limitations, that's why we have CompletableFuture.
- * CompletableFuture provides a broad set of methods for creating multiple Futures, chaining, and combining.
- * It also has comprehensive exception handling support.
  */
 
+/*Future has so many limitations, that's why we have CompletableFuture.*/
 /**
- * Future has so many limitations, that's why we have CompletableFuture.
  * CompletableFuture provides a broad set of methods for creating multiple Futures, chaining, and combining.
  * It also has comprehensive exception handling support.
  */
 
-/**The most frequently used CompletableFuture methods are:
+/*The most frequently used CompletableFuture methods are:*/
+/**
  * supplyAsync(): It completes its job asynchronously. The result of supplier is run by a task from ForkJoinPool.commonPool() as default.
  * The supplyAsync() method returns CompletableFuture on which we can apply other methods.
  *
